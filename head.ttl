@@ -25,8 +25,8 @@
 
 <http://linked.data.gov.au/dataset/meshblockscatchments> a loci:Linkset ;
   dct:title "Meshblocks Catchments Linkset" ;
-  dct:description """This LOC-I Project Linkset relates Meshblock individuals in the ASGS LOC-I Dataset to Contracted Catchment individuals in the Geofabric LOC-I Dataset. All Meshblock -> Catchment relations are either transitiveSfOverlap or sfWithin, that is a Meshblock either overlaps or wholly within the Catchment, or in some cases the Catchment is wholly within the Meshblock.
-The Linkset triples (Meshblock sfWithin Catchment, Meshblock transitiveSfOverlap Catchment) are reified so that each triple is contained within an RDF Statement class instance so that the triple is numbered and the method used to generate the triple is given by the loci:hadGenerationMethod.
+  dct:description """This LOC-I Project Linkset relates Meshblock individuals in the ASGS LOC-I Dataset to Contracted Catchment individuals in the Geofabric LOC-I Dataset. All Meshblock -> Catchment relations are either transitiveSfOverlap, sfWithin, or sfContains. That is a Meshblock either overlaps or is wholly within the Catchment, or in some cases the Meshblock wholly contains the Catchment.
+The Linkset triples (Meshblock sfWithin Catchment, Meshblock sfContains Catchment, Meshblock transitiveSfOverlap Catchment) are reified so that each triple is contained within an RDF Statement class instance so that the triple is numbered and the method used to generate the triple is given by the loci:hadGenerationMethod.
 The method used for all triples in this Linkset is the same and it is SpatialIntersection which is defined below.
 The triples for the main data in this linkset - the Statements relating Meshblocks to Catchments - are valid RDF in the Turtle syntax but an unusual namespacing arrangement is used so all terms are indicated with as few letters as possible, mostly one letter then colon, e.g. s: for http://www.w3.org/1999/02/22-rdf-syntax-ns#subject, rather than the more common rdf:subject. This is simply to reduce file size."""@en ;
   dct:publisher <http://catalogue.linked.data.gov.au/org/O-000886> ;
