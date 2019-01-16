@@ -23,18 +23,20 @@ showing that `OBJECT_AA` is related to `OBJECT_BB` via `PREDICATE_X` but that th
 
 This is an example of <a href="https://en.wikipedia.org/wiki/Reification_(computer_science)#RDF_and_OWL">RDF reification</a> where a typical RDF relation of a *Subject*, *Predicate* and *Object* is described as an `rdf:Statement` class object with the *Subject*, *Predicate* and *Object* values being indicated by `rdf:subject`, `rdf:predicate` and `rdf:object` properties from the base RDF ontology and other information, such as provenance information, like the reference to the method used to generate the relation here, added to the `rdf:Statement` class just as any RDF information is added to any other class.
 
-### TODO: Fix these for Meshblocks->Catchment linkset.
-
 ## This Linkset's contents
 This Linkset consists of the following files:
 
 * **[README.md](README.md)** - this file, providing an introduction to the Linkset
-* **overlaps_all.ttl** - An RDF File with all of the overlaps. A 971MB RDF file, turtle format, encoding the total Linkset header information and data.
-
+* **header.ttl** - An RDF File with metadata about the linkset, and all RDF prefixes used in the linkset.
+* **overlaps_10.ttl** - An incomplete RDF File showing the first 10 transitiveSfOVerlaps relationships used as an example. Turtle format. Not including the header.
+* **within_10.ttl** - An incomplete RDF File showing the first 10 sfWithin relationships used as an example. Turtle format. Not including the header.
+* **overlaps_all.ttl** - An RDF File with all of the transitiveSfOverlaps relationships. Turtle format. Not including the header.
+* **within_all.ttl** - An RDF File with all of the sfWithin and sfContains relationships. Turtle format. Not including the header.
+* **all.ttl** - An RDF File containing a catenation of the head, all within relationships, and all overlaps relationships. Turtle format.
 
 
 ## Rights & License
-The content of this API is &copy; TODO: Fixme
+The content of this API is &copy; **TODO: Fix copyright for Meshblocks->Catchments**
 
 The content is licensed for use under the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) all details.
 
