@@ -1,5 +1,5 @@
 # Meshblocks/Catchments Linkset
-Links between [GNAF](linked.data.gov.au/dataset/asgs2016) Meshblocks and [Geofabric](linked.data.gov.au/dataset/geofabric) Contracted Catchments.
+Links between [ASGS](linked.data.gov.au/dataset/asgs2016) Meshblocks and [Geofabric](linked.data.gov.au/dataset/geofabric) Contracted Catchments.
 
 This is a LOC-I Project Linkset which is a specialised Dataset containing [RDF](https://www.w3.org/2001/sw/wiki/RDF) links between other LOC-I Project Linked Data Datasets. It is formulated according to the [VoID Linkset](https://www.w3.org/TR/void/) definition meaning that in addition to the actual links, some whole-of-Linkset metadata about who created the links and when is present as a dataset header.
 
