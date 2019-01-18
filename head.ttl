@@ -7,6 +7,12 @@
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geox: <http://linked.data.gov.au/def/geox#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix loci: <http://linked.data.gov.au/def/loci#> .
 
 @prefix : <http://linked.data.gov.au/dataset/meshblockscatchments/> .
 @prefix mb: <http://linked.data.gov.au/dataset/asgs2016/meshblock/> .
@@ -30,6 +36,7 @@ The Linkset triples (Meshblock sfWithin Catchment, Meshblock sfContains Catchmen
 The method used for all triples in this Linkset is the same and it is SpatialIntersection which is defined below.
 The triples for the main data in this linkset - the Statements relating Meshblocks to Catchments - are valid RDF in the Turtle syntax but an unusual namespacing arrangement is used so all terms are indicated with as few letters as possible, mostly one letter then colon, e.g. s: for http://www.w3.org/1999/02/22-rdf-syntax-ns#subject, rather than the more common rdf:subject. This is simply to reduce file size."""@en ;
   dct:publisher <http://catalogue.linked.data.gov.au/org/O-000886> ;
+  dc:publisher "CSIRO" ;
   dcat:contactPoint _:ashley ;
   dct:issued "2019-01-15"^^xsd:date ;
   dct:modified "2019-01-15"^^xsd:date ;
