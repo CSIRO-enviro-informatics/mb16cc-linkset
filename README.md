@@ -1,4 +1,4 @@
-# Meshblocks/Catchments Linkset
+# Meshblocks/ContractedCatchments Linkset
 Links between [ASGS 2016](http://linked.data.gov.au/dataset/asgs2016) Meshblock ([def](http://linked.data.gov.au/def/asgs#MeshBlock)) features and [Geofabric](http://linked.data.gov.au/dataset/geofabric) Contracted Catchment features.
 
 The links are expressed as feature-to-feature relationships - [RDF](https://www.w3.org/2001/sw/wiki/RDF) statements - using *Simple Features* relationships from, or derived from, the [GeoSPARQL ontology](https://en.wikipedia.org/wiki/GeoSPARQL). `sfWithin`, `sfOverlaps` from GeoSAPRQL are used. A new relationship (RDF predicate) `transitiveSfOverlaps` defined within the LocI project's [GeoSPARQL Extensions Ontology](https://github.com/CSIRO-enviro-informatics/geosparql-ext-ont) is also used. 
