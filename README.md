@@ -37,6 +37,14 @@ This Linkset consists of the following files:
 * **all.ttl** - An RDF File containing a concatenation of the header, all `sfWithin` relationships, and all `sfOverlaps` relationships. Turtle format.
 
 
+## Methods
+The method used to generate each link within a Linkset is required by the LocI project's definition of a Linkset to be indicated per-link and this is done so by the `loci:hadGenerationMethod` property. Then, all methods indicated (this Linkset uses only 1) themselves need detailing. 
+
+This Linkset's sole method is described in the Linkset header as a "Spatial Intersection Method" which links to details of the method given in the file [procedure_meshblock_catchment_linkset.txt](procedure_meshblock_catchment_linkset.txt).
+
+This method may be extracted out of this Linkset in the future and detailed in a stand-alone methods register for better reuse possibilities.
+
+
 ## Rights & License
 The content of this API is &copy; **TODO: Fix copyright for Meshblocks->Catchments**
 
