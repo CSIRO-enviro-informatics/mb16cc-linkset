@@ -14,7 +14,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix loci: <http://linked.data.gov.au/def/loci#> .
 
-@prefix : <http://linked.data.gov.au/dataset/meshblockscatchments/> .
+@prefix : <http://linked.data.gov.au/linkset/ajkdsx/> .
 @prefix mb: <http://linked.data.gov.au/dataset/asgs2016/meshblock/> .
 @prefix cc: <http://linked.data.gov.au/dataset/geofabric/catchment/> .
 @prefix s: <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> .
@@ -29,7 +29,7 @@
 @prefix nv: <http://qudt.org/schema/qudt#numericValue> .
 @prefix qu: <http://qudt.org/schema/qudt#unit> .
 
-<http://linked.data.gov.au/dataset/meshblockscatchments> a loci:Linkset ;
+<http://linked.data.gov.au/linkset/ajkdsx> a loci:Linkset ;
   dct:title "Meshblocks Contracted Catchments Linkset" ;
   dct:description """This LOC-I Project Linkset relates Meshblock individuals in the ASGS LOC-I Dataset to Contracted Catchment individuals in the Geofabric LOC-I Dataset. All Meshblock -> Catchment relations are either transitiveSfOverlap, sfWithin, or sfContains. That is a Meshblock either overlaps or is wholly within the Catchment, or in some cases the Meshblock wholly contains the Catchment.
 The Linkset triples (Meshblock sfWithin Catchment, Meshblock sfContains Catchment, Meshblock transitiveSfOverlap Catchment) are reified so that each triple is contained within an RDF Statement class instance so that the triple is numbered and the method used to generate the triple is given by the loci:hadGenerationMethod.
@@ -61,7 +61,7 @@ _:ashley a vcard:Individual ;
 
 :proc a prov:Plan ;
     rdfs:label "Spatial Intersection Method" ;
-    prov:value <https://raw.githubusercontent.com/CSIRO-enviro-informatics/meshblockscatchments-linkset/master/procedure_meshblock_catchment_linkset.txt> ;
+    prov:value <https://raw.githubusercontent.com/CSIRO-enviro-informatics/meshblockscontractedcatchments-linkset/master/procedure_meshblock_catchment_linkset.txt> ;
     rdfs:comment "The method used to classify Meshblock and Contracted Catchment relationships" ;
     prov:wasAttributedTo _:ashley ;
     prov:generatedAtTime "2019-01-15"^^xsd:date .
