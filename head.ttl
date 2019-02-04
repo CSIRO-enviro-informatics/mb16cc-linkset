@@ -41,8 +41,8 @@ The triples for the main data in this linkset - the Statements relating Meshbloc
   dct:issued "2019-01-15"^^xsd:date ;
   dct:modified "2019-01-15"^^xsd:date ;
   dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
-  void:objectsTarget <http://linked.data.gov.au/dataset/asgs2016> ;
-  void:subjectTarget <http://linked.data.gov.au/dataset/geofabric> .
+  void:subjectsTarget <http://linked.data.gov.au/dataset/asgs2016> ;
+  void:objectsTarget <http://linked.data.gov.au/dataset/geofabric> .
 
 _:ashley a vcard:Individual ;
   rdfs:seeAlso <https://orcid.org/0000-0003-0590-0131> ;
