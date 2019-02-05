@@ -14,7 +14,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix loci: <http://linked.data.gov.au/def/loci#> .
 
-@prefix : <http://linked.data.gov.au/linkset/ajkdsx/> .
+@prefix : <http://linked.data.gov.au/linkset/ajkdsx/statement/> .
 @prefix mb: <http://linked.data.gov.au/dataset/asgs2016/meshblock/> .
 @prefix cc: <http://linked.data.gov.au/dataset/geofabric/catchment/> .
 @prefix s: <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> .
@@ -43,14 +43,14 @@ The triples for the main data in this linkset - the Statements relating Meshbloc
   dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
   void:subjectsTarget <http://linked.data.gov.au/dataset/asgs2016> ;
   void:objectsTarget <http://linked.data.gov.au/dataset/geofabric> ;
-  prov:wasGeneratedBy :act .
+  prov:wasGeneratedBy _:act .
 
-:act a prov:Activity; 
+_:act a prov:Activity; 
     prov:wasAssociatedWith _:ashley; 
     prov:qualifiedAssociation [
         a prov:Association;
         prov:agent   _:ashley;
-        prov:hadPlan :proc;
+        prov:hadPlan _:proc;
     ];
 .  
   
@@ -59,7 +59,7 @@ _:ashley a vcard:Individual ;
   vcard:fn "Ashley Sommer" ;
   vcard:hasEmail <mailto:Ashley.Sommer@csiro.au> .
 
-:proc a prov:Plan ;
+_:proc a prov:Plan ;
     rdfs:label "Spatial Intersection Method" ;
     prov:value <https://raw.githubusercontent.com/CSIRO-enviro-informatics/meshblockscontractedcatchments-linkset/master/procedure_meshblock_catchment_linkset.txt> ;
     rdfs:comment "The method used to classify Meshblock and Contracted Catchment relationships" ;
