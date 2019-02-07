@@ -50,9 +50,8 @@ _:act a prov:Activity;
     prov:qualifiedAssociation [
         a prov:Association;
         prov:agent   _:ashley;
-        prov:hadPlan _:proc;
-    ];
-.  
+        prov:hadPlan _:proc
+    ] .  
   
 _:ashley a vcard:Individual ;
   rdfs:seeAlso <https://orcid.org/0000-0003-0590-0131> ;
