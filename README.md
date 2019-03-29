@@ -17,18 +17,18 @@ The formal definition of what a Linkset is, is provided by the Location Index (L
 
 * http://linked.data.gov.au/def/loci 
 
-![](ac.png)  
-**Figure 1**: A geocoded address ('+', top layer) linked to a catchment polygon (bottom layer). Each *link* in this Linkset states a geocoded address ID, a catchment ID, the relationship type (always `geo:sfWithin`), a method used to make the link and the ID of the link itself.
+![](overlaps.png)  
+**Figure 1**: A Mesh Block (red outline) overlapping two Contracted Catchments (blue and purple ploygons)  
 
 
 ## Repository Contents  
 * [data00.ttl.tar.gz](data00.ttl.tar.gz) & [data01.ttl.tar.gz](data01.ttl.tar.gz) - this Linkset’s main data files. They are compressed RDF turtle files, each less than 100MB
 * [header.ttl](header.ttl) - this Linkset’s data.ttl header information, stored separately for ease of access
-* [example-data.ttl](example-data.ttl) - 10 Statements from the Linkset for ease of access, in RDF (turtle) format, as per the main data file
-  * [example-data.csv](example-data.csv) - 10 Statements from the Linkset for ease of access, in simple CSV format
-* [README.md](README.md) - this file
+* example data:
+  * [example-data-overlaps.ttl](example-data-overlaps.ttl) - 10 Statements from the Linkset where a Mesh Block overlaps a Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
+  * [example-data-within.csv](example-data-within.csv) - 10 Statements from the Linkset where a Mesh Block is wholly within Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
 * [LICENSE](LICENSE) - the data license assigned to this Linkset’s content
-* [overview.png](overview.png) - the image above
+* [overlaps.png](overview.png) - the image above
 * [methods/](methods/) - a folder containing information (prose and code) about how this Linkset was generated
 
 
