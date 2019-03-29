@@ -1,4 +1,4 @@
-# GNAF Addresses to Catchments Linkset
+# GNAF Addresses to Contracted Catchments Linkset
 This code repository contains a Linkset - a specialised Dataset linking objects in two other Datasets.
 
 This Linkset contains spatial associations between [`Mesh Block`](http://linked.data.gov.au/def/asgs#MeshBlock) class objects in the 2016 version of the Australian Statistical Geography Standard (ASGS 2016) and `Contracted Catchment` class objects in the [Geofabric](linked.data.gov.au/dataset/geofabric).
@@ -33,7 +33,7 @@ The formal definition of what a Linkset is, is provided by the Location Index (L
 
 
 ## Purpose
-This repository contains a Linkset. [Linkset](http://linked.data.gov.au/def/loci#Linkset)s are specialised Linked Data datasets that link objects, such as Addresses or Catchments, in one Linked Data dataset to objects in another.
+This repository contains a Linkset. [Linkset](http://linked.data.gov.au/def/loci#Linkset)s are specialised Linked Data datasets that link objects, such as Addresses or Contracted Catchments, in one Linked Data dataset to objects in another.
 
 Publishing relationships between Datasets as distinct Linksets allows for the independent management of Dataset-to-Dataset relationships.
 
@@ -44,13 +44,13 @@ Where LocI objects across multiple datasets have spatial relationships that we w
 Some LocI Datasets, such as the ASGS, have multiple, independently delivered versions (the ASGS is released as a Linked Data Datasets in both [2011](http://linked.data.gov.au/dataset/asgs2011) and [2016](http://linked.data.gov.au/dataset/asgs2016) versions). Linksets can be used to link between these versions of a Dataset too. This allows for information such as correspondence tables (links between ASGS versions, published by the Australian Bureau of Statistics) to be published as Linked Data independently of any other Dataset.
 
 ### This Linkset
-This Linkset - GNAF Current Addresses to Geofabric Catchments Linkset - is a spatial relations Linkset linking GNAF Current Addresses (points) to Geofabric Catchments (polygons) by indicating which Catchment each Address is within.
+This Linkset - GNAF Current Addresses to Geofabric Contracted Catchments Linkset - is a spatial relations Linkset linking GNAF Current Addresses (points) to Geofabric Contracted Catchments (polygons) by indicating which Contracted Catchment each Address is within.
 
 This Linkset states, per Address and with other details, something like this:
 
 Address GAACT714845933  
 *is within*  
-Catchment 7155143  
+Contracted Catchment 7155143  
 
 ...and that this particular link was made on the 6th of February, 2015 using a Parcel Level matching method.
 
@@ -93,7 +93,7 @@ In its long list of statements, this Linkset expresses each link like this:
 * Statement MW1 says:
   * Address GAACT714845933
   * is within
-  * Catchment 7155143
+  * Contracted Catchment 7155143
   * Link generated via SpatialIntersection Method
 
 In RDF code  this link is expressed as:
@@ -139,8 +139,8 @@ A series of queries to calculate Linkset metrics is being prepared here: <https:
 Number of links | 700754
 Number of items in Dataset A (from) not linked | *not yet calculated* 
 Number of items in Dataset B (to) not linked | *not yet calculated*
-Number of link creation methods used | 1 (a spacial intersection)
-Numbers of uses of each link-creation method | 14502000
+Number of link creation methods used | 1 (a spatial intersection)
+Numbers of uses of each link-creation method | 700754
 
 
 ## Rights & License
