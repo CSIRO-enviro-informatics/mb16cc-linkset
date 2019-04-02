@@ -22,7 +22,7 @@ The formal definition of what a Linkset is, is provided by the Location Index (L
 
 
 ## Repository Contents  
-* [data00.ttl.tar.gz](data00.ttl.tar.gz) & [data01.ttl.tar.gz](data01.ttl.tar.gz) - this Linkset’s main data files. They are compressed RDF turtle files, each less than 100MB
+* [data.ttl](data.ttl) - this Linkset’s main data files. 
 * [header.ttl](header.ttl) - this Linkset’s data.ttl header information, stored separately for ease of access
 * example data:
   * [example-data-overlaps.ttl](example-data-overlaps.ttl) - 10 Statements from the Linkset where a Mesh Block overlaps a Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
