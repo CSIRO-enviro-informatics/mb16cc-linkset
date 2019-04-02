@@ -118,7 +118,7 @@ With contractions used to save data volumes resulting in:
 .
 ```
 
-See the file [example-data.ttl](example-data.ttl) for the first 10 Statements of the Linkset expressed like this and see the [header.ttl](header.ttl) file to explain all the contractions.
+See the file [example-data-within.ttl](example-data-within.ttl) for the first 10 Statements of the Linkset expressed like this and see the [header.ttl](header.ttl) file to explain all the contractions.
 
 
 ## Linkset metrics
