@@ -1,7 +1,7 @@
 # 2016 Mesh Blocks to Contracted Catchments Linkset
 This code repository contains a Linkset - a specialised Dataset linking objects in two other Datasets.
 
-This Linkset contains spatial associations between [`Mesh Block`](http://linked.data.gov.au/def/asgs#MeshBlock) class objects in the 2016 version of the Australian Statistical Geography Standard (ASGS 2016) and `Contracted Catchment` class objects in the [Geofabric](linked.data.gov.au/dataset/geofabric).
+This Linkset contains spatial associations between [`Mesh Block`](http://linked.data.gov.au/def/asgs#MeshBlock) class objects in the 2016 version of the Australian Statistical Geography Standard (ASGS 2016) and `Contracted Catchment` class objects in the [Geofabric](http://linked.data.gov.au/dataset/geofabric).
 
 Both `Mesh Block` and `Contracted Catchment` features are represented spatially as polygons of varying area, consequently the following 3 spatial relations are present:
 
