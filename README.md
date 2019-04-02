@@ -26,7 +26,7 @@ The formal definition of what a Linkset is, is provided by the Location Index (L
 * [header.ttl](header.ttl) - this Linkset’s data.ttl header information, stored separately for ease of access
 * example data:
   * [example-data-overlaps.ttl](example-data-overlaps.ttl) - 10 Statements from the Linkset where a Mesh Block overlaps a Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
-  * [example-data-within.csv](example-data-within.csv) - 10 Statements from the Linkset where a Mesh Block is wholly within Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
+  * [example-data-within.ttl](example-data-within.ttl) - 10 Statements from the Linkset where a Mesh Block is wholly within Contracted Catchment, for ease of access, in RDF (turtle) format, as per the main data file
 * [LICENSE](LICENSE) - the data license assigned to this Linkset’s content
 * [overlaps.png](overview.png) - the image above
 * [methods/](methods/) - a folder containing information (prose and code) about how this Linkset was generated
