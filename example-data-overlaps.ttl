@@ -1,5 +1,3 @@
-#import head.ttl
-
 mb:30563930900 a f: ;
     dbp:area [ nv: 2.91321e+07 ;
             qu: m2: ] .
@@ -13,16 +11,19 @@ cc:12102128 a f: ;
             qu: m2: ] .
 
 :mo1 s: mb:30563930900 ;
+    i: l: ;
     p: c: ;
     o: :i1 ;
     m: :proc .
 
 :co1 s: cc:12102128 ;
+    i: l: ;
     p: c: ;
     o: :i1 ;
     m: :proc .
 
 :to1 s: mb:30563930900 ;
+    i: l: ;
     p: tso: ;
     o: cc:12102128;
     m: :proc .
@@ -40,16 +41,19 @@ cc:12301469 a f: ;
             qu: m2: ] .
 
 :mo2 s: mb:40012500000 ;
+    i: l: ;
     p: c: ;
     o: :i2 ;
     m: :proc .
 
 :co2 s: cc:12301469 ;
+    i: l: ;
     p: c: ;
     o: :i2 ;
     m: :proc .
 
 :to2 s: mb:40012500000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12301469;
     m: :proc .
@@ -67,16 +71,19 @@ cc:12302323 a f: ;
             qu: m2: ] .
 
 :mo3 s: mb:40215198900 ;
+    i: l: ;
     p: c: ;
     o: :i3 ;
     m: :proc .
 
 :co3 s: cc:12302323 ;
+    i: l: ;
     p: c: ;
     o: :i3 ;
     m: :proc .
 
 :to3 s: mb:40215198900 ;
+    i: l: ;
     p: tso: ;
     o: cc:12302323;
     m: :proc .
@@ -94,16 +101,19 @@ cc:12302930 a f: ;
             qu: m2: ] .
 
 :mo4 s: mb:40415740000 ;
+    i: l: ;
     p: c: ;
     o: :i4 ;
     m: :proc .
 
 :co4 s: cc:12302930 ;
+    i: l: ;
     p: c: ;
     o: :i4 ;
     m: :proc .
 
 :to4 s: mb:40415740000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12302930;
     m: :proc .
@@ -121,16 +131,19 @@ cc:12501961 a f: ;
             qu: m2: ] .
 
 :mo5 s: mb:50107800000 ;
+    i: l: ;
     p: c: ;
     o: :i5 ;
     m: :proc .
 
 :co5 s: cc:12501961 ;
+    i: l: ;
     p: c: ;
     o: :i5 ;
     m: :proc .
 
 :to5 s: mb:50107800000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12501961;
     m: :proc .
@@ -148,16 +161,19 @@ cc:12501673 a f: ;
             qu: m2: ] .
 
 :mo6 s: mb:50107800000 ;
+    i: l: ;
     p: c: ;
     o: :i6 ;
     m: :proc .
 
 :co6 s: cc:12501673 ;
+    i: l: ;
     p: c: ;
     o: :i6 ;
     m: :proc .
 
 :to6 s: mb:50107800000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12501673;
     m: :proc .
@@ -175,16 +191,19 @@ cc:12300966 a f: ;
             qu: m2: ] .
 
 :mo7 s: mb:50185410000 ;
+    i: l: ;
     p: c: ;
     o: :i7 ;
     m: :proc .
 
 :co7 s: cc:12300966 ;
+    i: l: ;
     p: c: ;
     o: :i7 ;
     m: :proc .
 
 :to7 s: mb:50185410000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12300966;
     m: :proc .
@@ -202,16 +221,19 @@ cc:9551734 a f: ;
             qu: m2: ] .
 
 :mo8 s: mb:50264330000 ;
+    i: l: ;
     p: c: ;
     o: :i8 ;
     m: :proc .
 
 :co8 s: cc:9551734 ;
+    i: l: ;
     p: c: ;
     o: :i8 ;
     m: :proc .
 
 :to8 s: mb:50264330000 ;
+    i: l: ;
     p: tso: ;
     o: cc:9551734;
     m: :proc .
@@ -229,16 +251,19 @@ cc:12500009 a f: ;
             qu: m2: ] .
 
 :mo9 s: mb:50311180000 ;
+    i: l: ;
     p: c: ;
     o: :i9 ;
     m: :proc .
 
 :co9 s: cc:12500009 ;
+    i: l: ;
     p: c: ;
     o: :i9 ;
     m: :proc .
 
 :to9 s: mb:50311180000 ;
+    i: l: ;
     p: tso: ;
     o: cc:12500009;
     m: :proc .
@@ -256,16 +281,19 @@ cc:12300915 a f: ;
             qu: m2: ] .
 
 :mo10 s: mb:50391454500 ;
+    i: l: ;
     p: c: ;
     o: :i10 ;
     m: :proc .
 
 :co10 s: cc:12300915 ;
+    i: l: ;
     p: c: ;
     o: :i10 ;
     m: :proc .
 
 :to10 s: mb:50391454500 ;
+    i: l: ;
     p: tso: ;
     o: cc:12300915;
     m: :proc .
