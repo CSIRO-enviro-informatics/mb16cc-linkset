@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix geox: <http://linked.data.gov.au/def/geox#> .
+@prefix gx: <http://linked.data.gov.au/def/geox#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -27,9 +27,8 @@
 @prefix c: <http://www.opengis.net/ont/geosparql#sfContains> .
 @prefix tso: <http://linked.data.gov.au/def/geox#transitiveSfOverlap> .
 @prefix f: <http://www.opengis.net/ont/geosparql#Feature> .
-@prefix m2: <http://qudt.org/schema/qudt#SquareMeter> .
-@prefix nv: <http://qudt.org/schema/qudt#numericValue> .
-@prefix qu: <http://qudt.org/schema/qudt#unit> .
+@prefix am2: <http://linked.data.gov.au/def/geox#hasAreaM2> .
+@prefix dv: <http://linked.data.gov.au/def/datatype/value> .
 
 l: a loci:Linkset ;
   dct:title "Meshblocks Contracted Catchments Linkset" ;
@@ -44,18 +43,19 @@ The triples for the main data in this linkset - the Statements relating Meshbloc
   dct:modified "2019-01-15"^^xsd:date ;
   dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
   void:subjectsTarget <http://linked.data.gov.au/dataset/asgs2016> ;
-  void:linkPredicate w: , geox:transitiveSfOverlap ;
+  void:linkPredicate w: , c: , tso: ;
   void:objectsTarget <http://linked.data.gov.au/dataset/geofabric> ;
-  m: [
-    a prov:Plan ;
+  m: _:mb16cc_p .
+
+_:mb16cc_p a prov:Plan ;
     rdfs:label "Spatial Intersection Method" ;
-    prov:value <https://raw.githubusercontent.com/CSIRO-enviro-informatics/meshblockscontractedcatchments-linkset/master/procedure_meshblock_catchment_linkset.txt> ;
+    prov:value <https://raw.githubusercontent.com/CSIRO-enviro-informatics/mb16cc-linkset/master/methods/procedure_meshblock_catchment_linkset.txt> ;
     rdfs:comment "The method used to classify Meshblock and Contracted Catchment relationships" ;
     prov:wasAttributedTo _:ashley ;
-    prov:generatedAtTime "2019-01-15"^^xsd:date ;
-  ] .
+    prov:generatedAtTime "2019-01-15"^^xsd:date .
 
 _:ashley a vcard:Individual ;
   rdfs:seeAlso <https://orcid.org/0000-0003-0590-0131> ;
   vcard:fn "Ashley Sommer" ;
   vcard:hasEmail <mailto:Ashley.Sommer@csiro.au> .
+
