@@ -14,11 +14,12 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix loci: <http://linked.data.gov.au/def/loci#> .
 
+
 @prefix : <http://linked.data.gov.au/dataset/mb16cc/statement/> .
 @prefix i: <http://purl.org/dc/terms/isPartOf> .
 @prefix l: <http://linked.data.gov.au/dataset/mb16cc> .
 @prefix mb: <http://linked.data.gov.au/dataset/asgs2016/meshblock/> .
-@prefix cc: <http://linked.data.gov.au/dataset/geofabric/catchment/> .
+@prefix cc: <http://linked.data.gov.au/dataset/geofabric/contractedcatchment/> .
 @prefix s: <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> .
 @prefix p: <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> .
 @prefix o: <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> .
@@ -27,8 +28,11 @@
 @prefix c: <http://www.opengis.net/ont/geosparql#sfContains> .
 @prefix tso: <http://linked.data.gov.au/def/geox#transitiveSfOverlap> .
 @prefix f: <http://www.opengis.net/ont/geosparql#Feature> .
+@prefix dc: <http://www.w3.org/2001/XMLSchema#decimal> .
 @prefix am2: <http://linked.data.gov.au/def/geox#hasAreaM2> .
 @prefix dv: <http://linked.data.gov.au/def/datatype/value> .
+@prefix crs: <http://www.w3.org/ns/qb4st/crs> .
+@prefix albers: <http://www.opengis.net/def/crs/EPSG/0/3577> .
 
 l: a loci:Linkset ;
   dct:title "Meshblocks Contracted Catchments Linkset" ;
